@@ -1,0 +1,41 @@
+header{
+    padding: 20px;
+    background-color: slategrey;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+header .container .icons{
+    display: flex;
+    list-style: none;
+    
+}
+header .container .icons li{
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+header .container .icons li:hover{
+    color: yellow;
+}
+header .container .social{
+    display: flex;
+    position: absolute;
+}
+header .container .social i{
+    margin: 0 10px;
+}
+header .container .social select{
+    margin: 0 10px;
+}
+header button{
+    padding:0 20px;
+    border-radius: 50px;
+    border: 0;
+    position: absolute;
+    right: 0%;
+}
